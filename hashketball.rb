@@ -126,7 +126,9 @@ def good_practices
       binding.pry
  
         #what is 'data' at each loop through out .each block? when will the following line of code work and when will it break?
-      #
+        data.each do |data_item|
+           #binding.pry
+      end
     end
   end
 end
